@@ -41,8 +41,8 @@ if __name__ == '__main__':
     if not os.path.exists(path):
         os.makedirs(path)
     
-    username = '13723886045'  #账号
-    password = 'helloworld' #密码
+    username = 'XXX'  #账号
+    password = 'XXX' #密码
     startnum=2000 #开始题号
     endnum = 2000 #结束题号
     for problemId in range(startnum,endnum+1):
