@@ -15,6 +15,7 @@ def html_valid(url,ojname,problemid):
         tree = lxml.html.fromstring(html)
     except Exception as e:
         print 'error:'+str(e)
+        return None
     title = tree.cssselect('title')[0].text_content()
     if re.search(regex1,title) or re.search(regex2, title): return html
     return None
