@@ -29,7 +29,7 @@ def submitcode(pid,lang,code):
             sleep(random.uniform(1,2))
             if(hdu.getstatus()):
                 return True
-    sleep(1,2)
+    sleep(1)
     return False
 
 def save_code(problemId,lang,code):
